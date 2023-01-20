@@ -1,0 +1,55 @@
+body, h1, p, a{
+  margin: 0;
+  font-size: 100%; 
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #2f80ed;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+}
+
+.content {
+  width: 520px;
+  margin: 110px auto 280px;
+}
+
+.image {
+  width: 100%;
+  height: 190px;
+}
+
+.content-404 {
+  font-style: normal;
+  font-size: 120px;
+  text-align: center;
+  width: 420px;
+  margin: 10px auto 280px;
+}
+
+.hint {
+  display: none;
+}
+
+.title-404:hover + .hint {
+  display: block;
+}
+
+.footer, .hint {
+  font-style: normal;
+  font-size: 17px;
+  text-align: center;
+}
+
+.footer {
+  margin-bottom: 280px auto 30px;
+}
+
+.main-link {
+  text-decoration: underline;
+  color: #2f80ed;
+}
